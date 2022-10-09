@@ -1,0 +1,142 @@
+  @media screen and (max-width: 1200px) {
+  	.header .col-md-3 {
+  		font-size: 16px;
+  	}
+  	nav .main_ul > li {
+  		padding: 0 20px;
+  	}
+  	.bot_img_wrap a:first-child {
+  		margin-right: 13px;
+  	}
+  }
+
+  @media screen and (max-width: 993px) {
+  	.hotel_item {
+  		width: 48.5%;
+  		margin: 0 .5% 15px;
+  	}
+  	.hotel_description p {
+  		padding: 0 10px;
+  	}
+  	.logo {
+  		margin-top: 60px;
+  	}
+  	nav .main_ul > li {
+  		padding: 0 17px;
+  	}
+  	.advantages_wrap {
+  		height: 275px;
+  	}
+  	.sauna1_descr {
+  		margin-top: 20px;
+  	}
+  }
+  
+  @media screen and (max-width: 767px) {
+  	.logo {
+  		margin-top: 15px;
+  		width: 200px;
+  	}
+  	.header .col-md-3 {
+  		margin-top: 2px;
+  		font-size: 20px;
+  	}
+  	.header_decor {
+  		display: none;
+  	}
+  	header {
+  		height: 377px;
+  	}
+  	header h1 {
+  		margin-top: 9px;
+  	}
+  	nav .main_ul > li {
+  		display: block;
+  		float: none;
+  		width: 100%;
+  		height: auto;
+  	}
+  	nav .main_ul > li:after,
+  	nav .main_ul > li:first-child::before,
+  	.advantages_wrap,
+  	.map {
+  		display: none;
+  	}
+  	nav .main_ul {
+  		display: none;
+	    background-color: rgba(119, 10, 0,.9);
+	    z-index: 999;
+	    position: relative;
+	    margin-top: 4px;
+	    padding: 10px 0;
+  	}
+		nav .main_ul > li a {
+			color: #fff;
+		}
+		.dropdowns {
+			position: static;
+			display: none;
+			width: 100%;
+		}
+		.dropdowns li a {
+			font-size: 18px;
+		}
+		.toggle_menu {
+			display: block;
+			text-align: center;
+			font-size: 32px;
+			font-family: 'Geo';
+			color: #000;
+			line-height: 54px;
+			cursor: pointer;
+		}
+		.hotel_item {
+			width: 90%;
+			margin: 0 auto 30px;
+			float: none;
+		}
+		.footer {
+			text-align: center;
+		}
+		.bot_address {
+			float: none;
+			margin: 15px 0;
+			font-size: 18px;
+		}
+		.bot_links a,
+		.bot_line p,
+		.footer_logo p {
+			font-size: 16px;
+		}
+		.logo_mng {
+			float: none;
+			margin-top: 15px;
+		}
+		.header {
+			padding-top: 10px;
+		}
+		.content_descr {
+			margin-top: 30px;
+		}
+		.breads,
+		.breads li a,
+		.content_descr ul li,
+		.hotel_description p {
+			font-size: 18px;
+		}
+    .inner_header {
+      height: auto;
+      padding-bottom: 15px;
+    }
+
+
+  }
+  
+  @media screen and (max-width: 450px) {
+   	header h1 {
+   		font-size: 30px;
+   	}
+   	.hotel_description {
+   		height: 195px;
+   	}
+  }

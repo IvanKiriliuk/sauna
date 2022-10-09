@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Proxima';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima";
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Geo';
+    src: url('../fonts/GeoSlb712BoldCBT.eot');
+    src: url('../fonts/GeoSlb712BoldCBT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GeoSlb712BoldCBT.woff') format('woff'),
+        url('../fonts/GeoSlb712BoldCBT.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
